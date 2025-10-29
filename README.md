@@ -1,10 +1,10 @@
-# 🌟 C++23 Minimal Template
+# C++23 Minimal Template
 
 A minimal, modern C++ project template designed for clarity and fast iteration using a robust set of LLVM tools and a Nix development environment.
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 The project follows a standard structure to clearly separate different file types:
 
@@ -16,14 +16,14 @@ The project follows a standard structure to clearly separate different file type
 
 ---
 
-## 🔗 Dependencies
+## Dependencies
 
 This project is intended to be built within a **Nix development shell** (`nix develop`), which provides the necessary toolchain and utilities.
 
 | Category      | Tool                        | Purpose                                                   |
 | :------------ | :-------------------------- | :-------------------------------------------------------- |
 | **Toolchain** | `clang++`, `lldb`, `libcxx` | C++23 compiler, debugger, and standard library.           |
-| **Build**     | `gnumake`                   | Build system orchestrator.                                |
+| **Build**     | `gnumake`                   | Build system.                                             |
 | **Tooling**   | `clangd`, `clang-format`    | Language Server Protocol (LSP) and code formatter.        |
 | **Tooling**   | `bear`                      | Generates `compile_commands.json` for editor integration. |
 | **Analysis**  | `cppcheck`, `valgrind`      | Static code analysis and dynamic memory debugger.         |
@@ -31,7 +31,7 @@ This project is intended to be built within a **Nix development shell** (`nix de
 
 ---
 
-## ⚙️ Build and Run Commands
+## Build and Run Commands
 
 ### Quick Start
 
